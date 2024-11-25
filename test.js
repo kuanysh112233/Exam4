@@ -74,28 +74,28 @@
 // calkulatorNume1(number1, number2);
 
 // tasc 2
-let sum = 0 
-let tagam
-let maz = 0
+// let sum = 0 
+// let tagam
+// let maz = 0
 
-function superMarket(sum, tagam, maz){
-    let i = 1;
-    while(true){
-        let shygunAty = +prompt(i + "shygyn aty")
-        if(shygunAty.toLowerCase() == "ayktau"){
-            console.log(`syfyn nomer #$[i]: ayktau`)
-            console.log(`ketken summa $[sum]`)
-            console.log()
-        }
-        else{
-            let shygunBafa = +prompt(i + "shygyn bafa")
-            console.log(`syfyn nomer #$[i]:$[shygunAty] $[shygunBafa]`);
-            sum = sum + shygunBafa;
-        }
-    }
-    i++
-}
-superMarket()
+// function superMarket(sum, tagam, maz){
+//     let i = 1;
+//     while(true){
+//         let shygunAty = +prompt(i + "shygyn aty")
+//         if(shygunAty.toLowerCase() == "ayktau"){
+//             console.log(`syfyn nomer #$[i]: ayktau`)
+//             console.log(`ketken summa $[sum]`)
+//             console.log()
+//         }
+//         else{
+//             let shygunBafa = +prompt(i + "shygyn bafa")
+//             console.log(`syfyn nomer #$[i]:$[shygunAty] $[shygunBafa]`);
+//             sum = sum + shygunBafa;
+//         }
+//     }
+//     i++
+// }
+// superMarket()
 
 // tasc 3
 
