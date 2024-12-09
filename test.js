@@ -49,10 +49,12 @@ console.log(eshop);
 /// 3 test /////////////////////////////////////////////////////////////////
 let newPhoneEshop = +prompt(" нөмір ")
 changePhoneNumber(newPhoneEshop)
-function changePhoneNumber(phoneNumberPhone){
-    eshop.phoneNumber=phoneNumberPhone
+function changePhoneNumber(NumberPhone){
+    eshop.phoneNumber=NumberPhone
 }
-console.log(eshop);
+console.log(eshop)
+///3 //////////
+function 
 
 
 
