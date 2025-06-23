@@ -1,6 +1,6 @@
 //1 test///////////////////////////////////////////////////
 
-eshop = {
+let eshop = {
     name1: "Sulpak",
     phoneNumber: 87074531808,
     products:[
@@ -35,26 +35,40 @@ eshop = {
             stock:90,   
         },
     ],
+    /////2///////////
+    changeShopName: function(){
+        let newName = prompt("Жаңа атау")
+        this.name1 = newName // Атын -өзгертеді
+    },
+    /////3////////////////
+    changePhoneNumber: function(){
+        let newNumber = prompt("Жаңа номер")
+        if(newNumber == ""){
+            this.phoneNumber = this.phoneNumber
+        }
+        else{
+            this.newNumber
+        }
+    }
+    //////////4////////////
+    listProductName function(){
+        let productlist = []
+        this.products.forEach(function(element){
+            productlist.push(element.productName)
+        })
+        productlist = productlist.join("\n")
+        alert(productlist)
+    }
 }
+/////2///////////////
+eshop.changeShopName()
 console.log(eshop);
-
-///2 test ///////////////////////////////////////////////////////////////////////////////////
-let newNameEshop = prompt("дүкен атауы")
-changeShopName(newNameEshop)
-function changeShopName(NameEshopName){
-    eshop.name1=NameEshopName
-}
+////3////////////////
+eshop.changePhoneNumber()
 console.log(eshop);
+///////////4//////////////
 
-/// 3 test /////////////////////////////////////////////////////////////////
-let newPhoneEshop = +prompt(" нөмір ")
-changePhoneNumber(newPhoneEshop)
-function changePhoneNumber(NumberPhone){
-    eshop.phoneNumber=NumberPhone
-}
-console.log(eshop)
-///3 //////////
-function 
+
 
 
 
